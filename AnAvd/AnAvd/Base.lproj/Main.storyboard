@@ -113,7 +113,19 @@
                     <view key="view" contentMode="scaleToFill" id="E7T-u5-cd5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RYp-ae-coz">
+                                <rect key="frame" x="25" y="45" width="270" height="410"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.23137254900000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kke-gf-1Co" firstAttribute="top" secondItem="RYp-ae-coz" secondAttribute="bottom" constant="25" id="D5e-VQ-1vo"/>
+                            <constraint firstItem="RYp-ae-coz" firstAttribute="leading" secondItem="E7T-u5-cd5" secondAttribute="leading" constant="25" id="Khl-s8-qCp"/>
+                            <constraint firstItem="RYp-ae-coz" firstAttribute="top" secondItem="1AI-HZ-ZNP" secondAttribute="bottom" constant="25" id="a8o-DC-vTh"/>
+                            <constraint firstAttribute="trailing" secondItem="RYp-ae-coz" secondAttribute="trailing" constant="25" id="ciZ-sD-BGo"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
