@@ -23,6 +23,7 @@
     NSLog(@"jai hanuman");
     NSLog(@"jai Shree krishna");
     
+    NSLog(@"Apple iPhone");
     // Do any additional setup after loading the view.
 }
 
