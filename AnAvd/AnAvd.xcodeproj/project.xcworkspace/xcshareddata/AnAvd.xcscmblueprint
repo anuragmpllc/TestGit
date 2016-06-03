@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5A6046AD707E34903A1D0C9B66FE5EAB7978838E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5EB623248607F7A20997389BDC9C2B39386CC502" : 0,
+    "5A6046AD707E34903A1D0C9B66FE5EAB7978838E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "545F3CAA-20AD-490B-9D44-025372EFF379",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5EB623248607F7A20997389BDC9C2B39386CC502" : "",
+    "5A6046AD707E34903A1D0C9B66FE5EAB7978838E" : "AnAvd\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AnAvd",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AnAvd\/AnAvd.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/anuragmpllc\/TestGit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5A6046AD707E34903A1D0C9B66FE5EAB7978838E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/anutheriddle\/chakhna.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5EB623248607F7A20997389BDC9C2B39386CC502"
+    }
+  ]
+}

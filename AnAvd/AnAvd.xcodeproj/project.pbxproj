@@ -15,6 +15,11 @@
 		67E524731D01E3920092743A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E524711D01E3920092743A /* LaunchScreen.storyboard */; };
 		67E5247E1D01E3920092743A /* AnAvdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5247D1D01E3920092743A /* AnAvdTests.m */; };
 		67E524891D01E3920092743A /* AnAvdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E524881D01E3920092743A /* AnAvdUITests.m */; };
+		67E5249D1D01EA0C0092743A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5249C1D01EA0C0092743A /* BaseViewController.m */; };
+		67E524AC1D01ED2E0092743A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E524AB1D01ED2E0092743A /* FirstViewController.m */; };
+		67E524AF1D01ED3B0092743A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E524AE1D01ED3B0092743A /* SecondViewController.m */; };
+		67E524B21D01ED470092743A /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E524B11D01ED470092743A /* ThreeViewController.m */; };
+		67E524B51D01ED520092743A /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E524B41D01ED520092743A /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		67E524841D01E3920092743A /* AnAvdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnAvdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E524881D01E3920092743A /* AnAvdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnAvdUITests.m; sourceTree = "<group>"; };
 		67E5248A1D01E3920092743A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E5249B1D01EA0C0092743A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		67E5249C1D01EA0C0092743A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		67E524AA1D01ED2E0092743A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		67E524AB1D01ED2E0092743A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		67E524AD1D01ED3B0092743A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		67E524AE1D01ED3B0092743A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		67E524B01D01ED470092743A /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		67E524B11D01ED470092743A /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		67E524B31D01ED520092743A /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		67E524B41D01ED520092743A /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 		67E524621D01E3920092743A /* AnAvd */ = {
 			isa = PBXGroup;
 			children = (
+				67E524961D01E9450092743A /* Classes */,
 				67E524661D01E3920092743A /* AppDelegate.h */,
 				67E524671D01E3920092743A /* AppDelegate.m */,
 				67E524691D01E3920092743A /* ViewController.h */,
@@ -138,6 +154,55 @@
 				67E5248A1D01E3920092743A /* Info.plist */,
 			);
 			path = AnAvdUITests;
+			sourceTree = "<group>";
+		};
+		67E524961D01E9450092743A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				67E5249B1D01EA0C0092743A /* BaseViewController.h */,
+				67E5249C1D01EA0C0092743A /* BaseViewController.m */,
+				67E5249A1D01E9610092743A /* 4 */,
+				67E524991D01E95D0092743A /* 3 */,
+				67E524981D01E9580092743A /* 2 */,
+				67E524971D01E9510092743A /* 1 */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		67E524971D01E9510092743A /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				67E524AA1D01ED2E0092743A /* FirstViewController.h */,
+				67E524AB1D01ED2E0092743A /* FirstViewController.m */,
+			);
+			name = 1;
+			sourceTree = "<group>";
+		};
+		67E524981D01E9580092743A /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				67E524AD1D01ED3B0092743A /* SecondViewController.h */,
+				67E524AE1D01ED3B0092743A /* SecondViewController.m */,
+			);
+			name = 2;
+			sourceTree = "<group>";
+		};
+		67E524991D01E95D0092743A /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				67E524B01D01ED470092743A /* ThreeViewController.h */,
+				67E524B11D01ED470092743A /* ThreeViewController.m */,
+			);
+			name = 3;
+			sourceTree = "<group>";
+		};
+		67E5249A1D01E9610092743A /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				67E524B31D01ED520092743A /* FourViewController.h */,
+				67E524B41D01ED520092743A /* FourViewController.m */,
+			);
+			name = 4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +272,7 @@
 				TargetAttributes = {
 					67E5245F1D01E3920092743A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5JZ4R6V9NV;
 					};
 					67E524781D01E3920092743A = {
 						CreatedOnToolsVersion = 7.3;
@@ -270,7 +336,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E524AF1D01ED3B0092743A /* SecondViewController.m in Sources */,
+				67E524B21D01ED470092743A /* ThreeViewController.m in Sources */,
+				67E524B51D01ED520092743A /* FourViewController.m in Sources */,
 				67E5246B1D01E3920092743A /* ViewController.m in Sources */,
+				67E5249D1D01EA0C0092743A /* BaseViewController.m in Sources */,
+				67E524AC1D01ED2E0092743A /* FirstViewController.m in Sources */,
 				67E524681D01E3920092743A /* AppDelegate.m in Sources */,
 				67E524651D01E3920092743A /* main.m in Sources */,
 			);
@@ -415,10 +486,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AnAvd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allseva.AnAvd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +500,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AnAvd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allseva.AnAvd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
