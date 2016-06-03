@@ -18,6 +18,11 @@
     [super viewDidLoad];
     
     NSLog(@"I am awesome!");
+    NSLog(@"Hey Avadhesh first T for F");
+    NSLog(@"harey ram harey krishna");
+    NSLog(@"jai hanuman");
+    NSLog(@"jai Shree krishna");
+    
     // Do any additional setup after loading the view.
 }
 
